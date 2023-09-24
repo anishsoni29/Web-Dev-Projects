@@ -42,7 +42,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-[#AEC3AE] to-[#FAF1E4] text-white px-4 py-2 rounded-md ml-8"
-                  href="#"
+                  href="https://www.dropbox.com/scl/fi/5ue6j55z594k2h4fs69cy/Anish-Soni-Resume.pdf?rlkey=kpngur2vnbahj6k4xe93mk1ru&dl=0"
                 >
                   Resume
                 </a>
@@ -128,24 +128,28 @@ export default function Home() {
               <div className="flex flex-col items-center">
                 <Image src={code} width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">Code</h3>
-                <p className="py-2">Creating elegant designs.</p>
-                <h4 className="py-4 text-[#CCC8AA]">Design Tools I use</h4>
-                <p className="text-gray-800 py-1">Photoshop</p>
-                <p className="text-gray-800 py-1">Figma</p>
-                <p className="text-gray-800 py-1">Illustrator</p>
-                <p className="text-gray-800 py-1">Photoshop</p>
+                <p className="py-2">Producing refined code on a daily basis.</p>
+                <h4 className="py-4 text-[#CCC8AA]">Domains I explore:</h4>
+                <p className="text-gray-800 py-1">Data Science</p>
+                <p className="text-gray-800 py-1">Machine Learning</p>
+                <p className="text-gray-800 py-1">Artificial Intelligence</p>
+                <p className="text-gray-800 py-1">Statistics</p>
               </div>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 hover:scale-110 transition-transform">
               <div className="flex flex-col items-center">
                 <Image src={consulting} width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">Feedback</h3>
-                <p className="py-2">Creating elegant designs.</p>
-                <h4 className="py-4 text-[#CCC8AA]">Design Tools I use</h4>
-                <p className="text-gray-800 py-1">Photoshop</p>
-                <p className="text-gray-800 py-1">Figma</p>
-                <p className="text-gray-800 py-1">Illustrator</p>
-                <p className="text-gray-800 py-1">Photoshop</p>
+                <p className="py-2">Extra-curricular Interests!</p>
+                <h4 className="py-4 text-[#CCC8AA]">Domains I surf daily</h4>
+                <p className="text-gray-800 py-1">Finance & Economics</p>
+                <p className="text-gray-800 py-1">Fitness</p>
+                <p className="text-gray-800 py-1">
+                  Bussiness & Political Case Studies
+                </p>
+                <p className="text-gray-800 py-1">
+                  Ergonomics and Design studies
+                </p>
               </div>
             </div>
           </div>
@@ -156,7 +160,9 @@ export default function Home() {
               Portfolio
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              This is my portfolio and I'm very happy that I made this website
+              This is my portfolio, which also includes various figma designs,
+              projects I created to address difficulties I encountered locally,
+              and much more, all of which can be found on my Github.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
