@@ -128,7 +128,7 @@ export default function Home() {
                 <Image src={code} width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">Code</h3>
                 <p className="py-2">Producing refined code on a daily basis.</p>
-                <h4 className="py-4 text-[#CCC8AA]">Domains I explore:</h4>
+                <h4 className="py-4 text-[#CCC8AA]">Favourite Domains :</h4>
                 <p className="text-gray-800 py-1">Data Science</p>
                 <p className="text-gray-800 py-1">Machine Learning</p>
                 <p className="text-gray-800 py-1">Artificial Intelligence</p>
@@ -138,7 +138,9 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 hover:scale-110 transition-transform">
               <div className="flex flex-col items-center">
                 <Image src={consulting} width={100} height={100} />
-                <h3 className="text-lg font-medium pt-8 pb-2">Feedback</h3>
+                <h3 className="text-lg font-medium pt-8 pb-2">
+                  Brain - Storming
+                </h3>
                 <p className="py-2">Extra-curricular Interests!</p>
                 <h4 className="py-4 text-[#CCC8AA]">Domains I surf daily</h4>
                 <p className="text-gray-800 py-1">Finance & Economics</p>
@@ -159,7 +161,7 @@ export default function Home() {
               Portfolio
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              This is my portfolio, which also includes various figma designs,
+              This is my portfolio, which includes various figma designs,
               projects I created to address difficulties I encountered locally,
               and much more, all of which can be found on my Github.
             </p>
