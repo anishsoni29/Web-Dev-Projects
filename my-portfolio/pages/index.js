@@ -54,12 +54,11 @@ export default function Home() {
               Anish Soni
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-              Developer and Designer
+              Engineer | Designer | Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
-              A computer nerd who is experimenting with advanced computing,
-              artificial intelligence, machine learning, and design generally.
-              As a supporter of excellent design, Figma is my closest companion.
+              A computer geek who is experimenting with advanced computing,
+              artificial intelligence, machine learning, and design.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 dark:text-gray-400">
