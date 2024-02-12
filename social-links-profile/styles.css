@@ -13,7 +13,7 @@ body {
   width: 500px;
 }
 
-.profile-info-container {
+.info-container {
   background-color: #4a4a4a; /* Separate light grey box */
   border-radius: 10px;
   padding: 20px;
@@ -42,16 +42,19 @@ body {
 
 h1 {
   font-size: 24px;
+  color: aliceblue;
   margin-bottom: 5px;
 }
 
 h2 {
   font-size: 18px;
+  color: greenyellow;
   margin-bottom: 10px;
 }
 
 p {
   font-size: 16px;
+  color: beige;
   margin-bottom: 20px;
 }
 
