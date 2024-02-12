@@ -1,0 +1,12 @@
+body {
+  background-color: #2c2c2c;
+}
+
+.containter {
+  display: flex;
+  background-color: #f0f0f0;
+  justify-content: center;
+  color: #f0f0f0;
+  align-items: center;
+  height: 100vh;
+}
