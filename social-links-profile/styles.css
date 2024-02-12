@@ -76,12 +76,15 @@ p {
 }
 
 .social-links button {
+  background-color: #3d3d3d; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
   display: block; /* Display buttons as blocks */
+  font-size: 16px;
   margin-bottom: 10px; /* Add some space between buttons */
-  background-color: #2f2f2f; /* Set initial background color */
-  border: 1px solid #ccc; /* Add border */
-  padding: 10px; /* Add padding */
-  cursor: pointer; /* Change cursor to pointer */
 }
 .social-links button:hover {
   background-color: #b3ff00; /* Change background color on hover */
