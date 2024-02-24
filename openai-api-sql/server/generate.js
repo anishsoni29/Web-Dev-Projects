@@ -1,8 +1,7 @@
-//here we will generate our sql
-
+//here we will generate our sql query.
 import openaiClient from "./api.js";
 
-const generateSql = async (queryDescription) => {
+const generate = async (queryDescription) => {
   const response = await openaiClient.createCompletion({
     model: "text-davinci-003",
     prompt: `Convert the following natural language description into a SQL Query: \n\n${queryDescription}.`,
@@ -12,4 +11,4 @@ const generateSql = async (queryDescription) => {
   return response.data.choices[0].text;
 };
 
-export default generateSql;
+export default generate;
