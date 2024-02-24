@@ -1,16 +1,11 @@
-import express from "express";
-import cors from "cors";
+const express = require("express");
+const cors = require("cors");
 
-// const express = require("express");
-// const cors = require("cors");
-
-//import statement is used for the ES6 version of JS.
-import generate from "./generate.js";
+import { generate } from "./generate.js";
 
 const app = express();
-app.use(express.json());
-//parse body inside the express request.
 
+app.use(express.json());
 //cors is used for cross origin resource sharing - b/w the client and the server.
 app.use(cors());
 
