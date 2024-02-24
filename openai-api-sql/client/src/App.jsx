@@ -1,12 +1,21 @@
 import styles from "./index.module.css";
+import sqlLogo from "./assets/sqlLogo.png";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <main className={styles.main}>
-      <h1>Hello, world!</h1>
-    </main>
+    <body className={styles.body}>
+      <img src={sqlLogo} alt="" className={styles.icon} />
+      <h3>Generate SQL with AI</h3>
+
+      <form>
+        <input
+          type="text"
+          name="query-description"
+          placeholder="Describe your query"
+        />
+        <input type="submit" value="Generate query" />
+      </form>
+    </body>
   );
 }
 
